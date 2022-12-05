@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    list-style: none;
+    text-transform: lowercase;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main header {
+    background: url(../images/talking_heads-speaking_in_tongues.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.header {
+    position: absolute;
+    background-color: black;
+    width: 86%;
+    height: 400px;
+    left: 150px;
+    opacity: 0.75;
+}
+
+main header section img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 130px;
+    right: 170px;
+}
+
+.text {
+    color: yellow;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.text2 {
+    color: white;
+    position: absolute;
+    top: 205px;
+    left: 170px;
+}
+
+.text3 {
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 170px;
+}
+
+aside {
+    background-color: rgb(82, 82, 82);
+    color: white;
+    height: 900px;
+    width: 340px;
+    margin: 20px;
+    position: absolute;
+    right: 70px;
+}
+
+aside h2 {
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+}
+
+aside p {
+    padding: 15px;
+}
+
+aside blockquote {
+    padding: 40px;
+}
+
+aside blockquote a {
+    color: yellow;
+
+}
+
+aside section {
+    padding: 25px;
+    align-items: center;
+}
+
+aside section iframe {
+    padding-top: 10px;
+    border-top: 03px solid white;
+}
+
+.verse {
+    padding: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.verse h2 {
+    background-color: yellow;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.verse p {
+    border-left: 05px solid yellow;
+    padding: 10px;
+}
+
+.chorus {
+    padding: 40px;
+    position: relative;
+    left: 130px;
+}
+
+.chorus h2 {
+    background-color: yellow;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.chorus p {
+    padding: 30px;
+    border-left: 05px solid yellow;
+    padding: 10px;
+}
+
+footer {
+    border-top: 05px solid yellow;
+    width: 80%;
+    position: absolute;
+    left: 100px;
+    align-items: center;
+}
+
+footer section cite {
+    position: absolute;
+    left: 15%;
+    padding: 10px;
+}
+
+footer section cite a {
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+}
